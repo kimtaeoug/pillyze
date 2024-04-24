@@ -1,0 +1,48 @@
+name: pillyze
+description: "필라이즈 과제 테스트"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  fl_chart: ^0.67.0
+  freezed_annotation: ^2.4.1
+  logger: ^2.0.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.1.7
+  freezed: ^2.4.5
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/fonts/
+  fonts:
+    - family: pretendard
+      fonts:
+        - asset: assets/fonts/pretendard_thin.otf
+          weight: 100
+        - asset: assets/fonts/pretendard_extra_light.otf
+          weight: 200
+        - asset: assets/fonts/pretendard_light.otf
+          weight: 300
+        - asset: assets/fonts/pretendard_regular.otf
+          weight: 400
+        - asset: assets/fonts/pretendard_medium.otf
+          weight: 500
+        - asset: assets/fonts/pretendard_semi_bold.otf
+          weight: 600
+        - asset: assets/fonts/pretendard_bold.otf
+          weight: 700
+        - asset: assets/fonts/pretendard_extra_bold.otf
+          weight: 800
+        - asset: assets/fonts/pretendard_black.otf
+          weight: 900
